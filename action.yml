@@ -1,5 +1,5 @@
 # action.yml
-name: 'Deploy MkDocs'
+name: 'MkDocs Deploys'
 description: 'Deploys MkDocs site'
 author: 'Gitworkflows, alerts@log4j.codes'
 branding:
