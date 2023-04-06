@@ -1,5 +1,8 @@
-FROM /squidfunk/mkdocs-material:9.1.5
-LABEL maintainer="CVEDB, alerts@log4j.codes"
+FROM python:3.8.1-alpine3.11
+LABEL maintainer="gitworkflows, alerts@log4j.com"
+
+RUN apk add --no-cache git git-fast-import openssh build-base
+WORKDIR /docs
 
 COPY action.sh /action.sh
 
